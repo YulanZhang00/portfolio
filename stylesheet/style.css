@@ -1,0 +1,224 @@
+body {
+    font-family: 'Urbanist', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.menu {
+    width: 100%;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 10px 0 0;
+    width: 100%;
+}
+
+.logo span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    
+}
+
+.homepage {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 20px;
+}
+
+.part1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.part1-left {
+    text-align: center;
+    padding: 0% 20px;
+}
+
+.part1-left img {
+    border-radius: 50%;
+    width: 480px;
+    height: 480px;
+}
+
+.part1-right {
+    padding: 0% 20px;
+    max-width: 600px;
+   
+}
+
+h1 {
+    font-family: 'Urbanist', sans-serif;
+    letter-spacing: -0.02em;
+    font-size: 100px;
+    margin: 20px 0;
+}
+
+h2 {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+p1 {
+    font-family: 'PingFang SC', sans-serif;
+    width: 480px;
+    font-size: 16px;
+    line-height: 1.6em;
+    color: #666;  
+    display: block;
+}
+
+p2 {
+    font-family: 'Urbanist', sans-serif;
+    width: 480px;
+    font-size: 16px;
+    color: #666;
+    display: block;
+    line-height: 1.6em;
+}   
+
+.part1-right-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.part1-right-button-1 {
+    background-color: #ff9900;
+    color: #fff;
+    padding: 50px 50px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.part1-right-button-2 {
+    background-color: #ff9900;
+    color: #fff;
+    padding: 50px 50px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.part1-right-button-3 {
+    background-color: #ff9900;
+    color: #fff;
+    padding: 50px 50px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.part2 {
+    max-width: 842px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px 20px;
+}
+
+.part2-discription {
+    text-align: left;
+    max-width: 842px;
+}
+
+.part2-discription h3 {
+    font-size: 56px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    letter-spacing: -0.02em;
+}
+
+.part2-discription p {
+    font-size: 20px;
+    line-height: 1.6em;
+    color: #666;
+    max-width: 842px;
+}
+
+.part2-projects {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.part2-projects-1, .part2-projects-2, .part2-projects-3 {
+    background-color: #f0f0f0;
+    border-radius: 50px;
+    height: 415px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+}
+
+.part2-projects-1 {
+    background-image: url('../img/project1.jpg');
+}
+
+.part2-projects-2 {
+    background-image: url('../img/project2.jpg');
+}
+
+.part2-projects-3 {
+    background-image: url('../img/project3.jpg');
+}
+
+.part2-projects-1 img, .part2-projects-2 img, .part2-projects-3 img {
+    display: none;
+}
+
+.project-info {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #000;
+    z-index: 2;
+}
+
+.project-info h4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.project-info p {
+    font-size: 16px;
+    color: #666;
+}   

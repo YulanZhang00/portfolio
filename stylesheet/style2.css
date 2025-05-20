@@ -1,0 +1,110 @@
+body {
+    font-family: 'Urbanist', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.menu {
+    width: 100%;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 10px 0 0;
+    width: 100%;
+}
+
+.logo span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    
+}
+
+.logo a {
+    text-decoration: none;
+    color: #000000;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+.resume-container {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.resume-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+.section {
+    margin-bottom: 80px;
+}
+
+.section h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #000;
+}
+
+.education-item, .work-item {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.left-column {
+    width: 300px;
+    margin-right: 40px;
+}
+
+.right-column {
+    flex: 1;
+}
+
+.time-period, .degree, .school, .school-en, .company, .location {
+    margin: 0 0 5px 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.school, .company {
+    font-weight: bold;
+}
+
+.courses, .courses-en, .job-description, .job-description-en {
+    margin: 0 0 15px 0;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.position {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.courses-en, .job-description-en, .school-en {
+    color: #666;
+}
