@@ -25,6 +25,12 @@ body {
     font-weight: bold;
     color: #000000;
 }
+
+.logo a {
+    text-decoration: none;
+    color: #000000;
+}
+
 nav {
     display: flex;
     justify-content: flex-end;
@@ -116,6 +122,7 @@ p2 {
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
 .part1-right-button-2 {
     background-color: #ff9900;
@@ -127,6 +134,7 @@ p2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .part1-right-button-3 {
     background-color: #ff9900;
@@ -138,10 +146,15 @@ p2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
-
-
+.part1-right-button-1 a,
+.part1-right-button-2 a,
+.part1-right-button-3 a {
+    text-decoration: none;
+    color: inherit;
+}
 
 .part2 {
     max-width: 842px;
@@ -187,7 +200,7 @@ p2 {
     position: relative;
     display: flex;
     flex-direction: column;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     transition: transform 0.3s ease;
 }
@@ -220,7 +233,14 @@ p2 {
     color: #000;
     z-index: 2;
 }
-
+.part2-projects-1 .project-info {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: #000;
+    z-index: 2;
+    text-align: right;
+}
 .project-info h4 {
     font-size: 24px;
     font-weight: bold;
@@ -232,6 +252,8 @@ p2 {
     color: #666;
 }
 
+.part2-projects-1 a,
+.part2-projects-2 a,
 .part2-projects-3 a {
     display: block;
     width: 100%;

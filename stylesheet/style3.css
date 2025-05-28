@@ -124,7 +124,14 @@ nav a {
     color: #000;
     z-index: 2;
 }
-
+.part2-projects-1 .project-info {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: #000;
+    z-index: 2;
+    text-align: right;
+}
 .project-info h4 {
     font-size: 24px;
     font-weight: bold;

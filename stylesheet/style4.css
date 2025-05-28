@@ -318,6 +318,58 @@ nav a {
     box-sizing: border-box;
 }
 
+/* Persona图片展示区域
+   ========================================================================== */
+.project-main-info-persona {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.project-main-info-persona img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+}
+/* 低保真图片展示区域
+   ========================================================================== */
+.project-main-info-low { 
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.project-main-info-low img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+    border: 2px solid #e0e0e0;
+}
+
+/* 高保真图片展示区域
+   ========================================================================== */
+   .project-main-info-high { 
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.project-main-info-high img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+    border: 2px solid #e0e0e0;
+}
 /* 响应式设计
    ========================================================================== */
 
